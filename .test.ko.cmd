@@ -1,0 +1,1 @@
+cmd_/home/slava/SymbolDriver/test.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/slava/SymbolDriver/test.ko /home/slava/SymbolDriver/test.o /home/slava/SymbolDriver/test.mod.o ;  true
